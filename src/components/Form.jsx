@@ -1,3 +1,4 @@
+import '../styles/Form.css'
 export default function Form({legend, inputFeilds }) {
     function handleSubmit(event){
         event.preventDefault();
